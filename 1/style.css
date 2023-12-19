@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Roboto:wght@300&family=Sriracha&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Sriracha', cursive;
+}
+
+
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:linear-gradient(120deg, rgb(79, 140, 190), rgb(63, 184, 113));
+}
+
+
+
+.relogio{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  width: 500px;
+  border-radius: 2px;
+  box-shadow: 0px 8px 10px black;
+}
+
+.relogio div{
+  display: flex;
+  flex-direction: column;
+}
+
+#dia{
+  position: absolute;
+  align-self: baseline;
+}
