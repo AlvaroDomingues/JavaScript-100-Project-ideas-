@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Sriracha', cursive;
+
+}
+
+body{
+  background: linear-gradient(to right, #f39c12, #34495e);
+}
+
+#box{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#contador{
+  height: 50vh;
+}
+
+#titulo{
+  text-align: center;
+  padding: 10px;
+}
+
+#time{
+  height: 30px;
+  border-radius: 10px;
+}
+
+#countdown{
+  text-align: center;
+  margin-top: 15px;
+}
+
+button{
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+}
